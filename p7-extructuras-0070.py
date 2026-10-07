@@ -2,22 +2,30 @@
 # Luis Axel Guzman Martinez
 # NC 0070
 
-print("=== IF ===")
 
+# =========================
+# IF
+# =========================
+
+# Ejemplo 1
 edad = 18
 
 if edad >= 18:
     print("Es mayor de edad")
 
 
+# Ejemplo 2
 calificacion = 90
 
 if calificacion >= 60:
     print("Aprobado")
 
 
-print("=== ELIF ===")
+# =========================
+# ELIF
+# =========================
 
+# Ejemplo 1
 calificacion = 80
 
 if calificacion >= 90:
@@ -26,6 +34,7 @@ elif calificacion >= 70:
     print("Bien")
 
 
+# Ejemplo 2
 temperatura = 25
 
 if temperatura > 30:
@@ -34,8 +43,11 @@ elif temperatura >= 20:
     print("Temperatura agradable")
 
 
-print("=== ELSE ===")
+# =========================
+# ELSE
+# =========================
 
+# Ejemplo 1
 edad = 15
 
 if edad >= 18:
@@ -44,6 +56,7 @@ else:
     print("No puede votar")
 
 
+# Ejemplo 2
 numero = 7
 
 if numero % 2 == 0:
@@ -52,22 +65,30 @@ else:
     print("Es impar")
 
 
-print("=== FOR ===")
+# =========================
+# FOR
+# =========================
 
+# Ejemplo 1
 for numero in range(1, 6):
     print(numero)
 
 
+# Ejemplo 2
 for numero in range(1, 11):
     print(numero * 2)
 
 
+# Ejemplo 3
 for letra in "Python":
     print(letra)
 
 
-print("=== WHILE ===")
+# =========================
+# WHILE
+# =========================
 
+# Ejemplo 1
 numero = 1
 
 while numero <= 5:
@@ -75,6 +96,7 @@ while numero <= 5:
     numero += 1
 
 
+# Ejemplo 2
 contador = 10
 
 while contador >= 1:
@@ -82,6 +104,7 @@ while contador >= 1:
     contador -= 1
 
 
+# Ejemplo 3
 numero = 2
 
 while numero <= 10:
